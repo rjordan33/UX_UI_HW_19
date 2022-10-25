@@ -1,0 +1,208 @@
+body {
+    margin:0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+.inline-block {
+    display: flex;
+    flex-direction: row;
+    vertical-align: top;
+    width: 100%;
+    justify-content: space-between;  
+ }
+.logo {
+    padding:1%;
+    padding-left: 50px;    
+    text-align: center;
+}
+.navItems {
+ padding: 10px;
+ padding-right: 75px;
+ display:flex;
+ flex-direction: column;
+ color:white;
+}
+.navContainer {
+    display: flex;
+    align-items: center;  
+    padding-right:50px;
+}
+.navigation {
+    width: 100vw;
+    background-color: black;
+}
+.hero {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-around;
+    background-color: black;  
+}
+.heroContent {
+    flex: 60%;
+    text-align: center;
+}
+.heroImg {
+   flex: 40%;
+   justify-content: center;
+}
+.heroContent h1 {
+    color: white;
+    font-size: 44px;
+  }
+.heroContent h3 {
+    color: white;   
+}
+.about_Me {
+    padding: 150px 350px 150px 350px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: black;  
+    color: white;
+   
+}
+.btnResume {
+    width: 272px;
+    height: 63px;
+    border: solid;
+    border-color: red;
+    background-color:black;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: 800;
+}
+
+.btnResume:hover { 
+    color:red;
+}
+.footer {
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    background-color: black;
+   
+}
+.footerItems {
+    padding-top: 10px;
+    padding-right: 50px;
+    color: white;
+    background-color: ;
+ }
+ .contentCase {
+    padding-top: 150px;
+    text-align: center; 
+   
+}
+.grid-container {
+    display: grid;
+    grid-template-columns:  auto auto;    
+}
+.grid-container > div {
+    padding: 75px;
+}
+.tripContent {
+    text-align: center;
+}
+.tripPic {
+    display: grid;
+    justify-content: center;
+}
+.saleseePic {
+    display: grid;
+    justify-content: center;
+}
+.saleseeContent {   
+    text-align:center;
+}
+.hollyhillContent {
+    text-align: center;  
+}
+.hollyhillPic {
+    display: grid;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+.btnCases {
+    width: 272px;
+    height: 63px;
+    border: solid;
+    border-color: red;
+   background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: 800;
+}
+.btnCases:hover { 
+    color:red;
+}
+.contactMe {
+    color: black
+}
+.contact {
+    padding-top: 100px;
+    display: grid;
+    text-align: center;}
+.form {
+    display: grid;
+    justify-content: center;
+    padding-bottom: 35px;
+}
+.btnContact {
+    width: 272px;
+    height: 63px;
+    border: solid;
+    border-color: red;
+   background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: 800; 
+    margin-bottom: 150px;   
+}
+
+.btnContact:hover { 
+    color:red;
+}
+.inputFields {
+    display: grid;
+    text-align: center;
+}
+.name {    
+    height: 25px;
+    margin-bottom: 15px;
+}
+.email {    
+    height: 25px;
+    margin-bottom: 15px;
+}
+.message {    
+    height: 25px;
+    margin-bottom: 15px;
+}
+@media (max-width: 700px) {
+     .inline-block .navContainer {   
+      flex-direction: column;
+    }}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.fab:hover{
+    text-decoration:underline ;
+}
